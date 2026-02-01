@@ -81,5 +81,5 @@ async def detect_voice(request: VoiceRequest, x_api_key: str = Header(None)):
 @app.get("/")
 def home():
     return {"message": "Voice API is Online", "docs": "/docs"}
-
     
+
